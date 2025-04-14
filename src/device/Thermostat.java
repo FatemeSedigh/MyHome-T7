@@ -1,5 +1,25 @@
 package device;
 
-public class Thermostat extends Device {
+import protocol.Protocol;
 
+public class Thermostat extends Device {
+    public int temperature;
+
+    public Thermostat (String name, Protocol protocol){
+        super(name, protocol);
+        this.temperature = 20;
+    }
+
+    public int getTemperature(){
+        return temperature;
+    }
+
+    public int setTemperature(){
+        this.temperature = temperature;
+    }
+
+    @Override
+    public String getDeviceInfo(){
+        return name + " " + status + " " + temperature + "C " + protocol.getProtocolName();
+    }
 }
