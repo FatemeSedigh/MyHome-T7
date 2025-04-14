@@ -14,6 +14,22 @@ public class Device {
         this.protocol = protocol;
     }
 
+    public String getName(){
+        return name;
+    }
 
+    public String getStatus (){
+        return status;
+    }
+
+    public Protocol getProtocol() {
+        return protocol;
+    }
+
+    public void setStatus(){
+        this.status = status;
+    }
+
+    public abstract String getDeviceInfo();
 
 }
