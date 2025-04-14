@@ -18,5 +18,8 @@ public class Thermostat extends Device {
         this.temperature = temperature;
     }
 
-
+    @Override
+    public String getDeviceInfo(){
+        return name + " " + status + " " + temperature + "C " + protocol.getProtocolName();
+    }
 }
