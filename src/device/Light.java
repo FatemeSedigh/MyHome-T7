@@ -10,6 +10,12 @@ public class Light extends Device {
         this.brightness = 50;
     }
 
+    public int getBrightness(){
+        return brightness;
+    }
 
+    public int setBrightness(){
+        this.brightness = brightness;
+    }
 
 }
