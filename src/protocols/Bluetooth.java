@@ -1,4 +1,5 @@
 package protocols;
 
-public class Bluetooth {
+public class Bluetooth implements Protocol {
+
 }

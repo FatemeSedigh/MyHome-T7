@@ -1,4 +1,5 @@
 package device;
 
-public class Light {
+public class Light extends Device {
+
 }

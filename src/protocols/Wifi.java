@@ -1,4 +1,5 @@
 package protocols;
 
-public class Wifi {
+public class Wifi implements Protocol {
+
 }
