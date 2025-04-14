@@ -10,7 +10,7 @@ public class Device {
 
     public Device ( name, status, protocol){
         this.name = name;
-        this.status = status;
+        this.status = "off";
         this.protocol = protocol;
     }
 
