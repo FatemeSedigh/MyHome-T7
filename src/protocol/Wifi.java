@@ -1,4 +1,4 @@
-package protocols;
+package protocol;
 
 public class Wifi implements Protocol {
 
