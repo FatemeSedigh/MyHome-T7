@@ -10,7 +10,13 @@ public class Thermostat extends Device {
         this.temperature = 20;
     }
 
+    public int getTemperature(){
+        return temperature;
+    }
 
+    public int setTemperature(){
+        this.temperature = temperature;
+    }
 
 
 }
