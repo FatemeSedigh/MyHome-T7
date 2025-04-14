@@ -18,4 +18,9 @@ public class Light extends Device {
         this.brightness = brightness;
     }
 
+    @Override
+    public String getDeviceInfo(){
+        return name + " " + status + " " + brightness + " " + protocol.getProtocolname();
+    }
+
 }
