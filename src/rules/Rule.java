@@ -12,4 +12,16 @@ public class Rule {
         this.time = time;
         this.action = action;
     }
+
+    public Device getDevice(){
+        return device;
+    }
+
+    public String getTime(){
+        return time;
+    }
+
+    public String getAction(){
+        return action;
+    }
 }
