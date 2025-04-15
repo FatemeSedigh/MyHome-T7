@@ -24,4 +24,8 @@ public class Rule {
     public String getAction(){
         return action;
     }
+
+    public String getRuleInfo() {
+        return device.getName() + " " + time + " " + action;
+    }
 }
